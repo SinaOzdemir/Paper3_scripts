@@ -1,0 +1,18 @@
+Error in if (x) { : argument is of length zero 
+  7.
+  .id_type(x) 
+  6.
+  .ids_type(users) 
+  5.
+  .user_lookup(users, token) 
+  4.
+  lookup_users_(users = character(0), parse = TRUE, token = <environment>) 
+  3.
+  do.call("lookup_users_", args) 
+  2.
+  lookup_users(users = rich_user_followers_extended.unique, parse = T, 
+               token = follower.sampler.token) 
+  1.
+  follower_sampler(userdata = test.id, token = follower.sampler.token, 
+                   samp.prop = 0.02, previous.ids = previous.id) 
+  
